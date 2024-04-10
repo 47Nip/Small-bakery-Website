@@ -1,0 +1,229 @@
+/* home.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff9f1c;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+      /* Add transition effect for smooth color change */
+  }
+  
+  nav ul li a:hover {
+    color: #fff; /* Change color on hover */
+  }
+  
+  .hero {
+    background-image: url('image\9c608a_1d105a52d5834dfa98f0ead7697277f7.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; Display images and text in a column */
+    height: 250px; /* Adjust height as needed */
+    position: relative; /* Position relative to the container */
+  }
+  
+  
+  
+  .text-container {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .text-container b {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  .space{
+    padding: 80px;
+  }
+  .image-info {
+    display: inline-block;
+    /* text-align: center; */
+    width: 30%;
+    height: auto;
+    margin-right: 20px; /* Adjust margin between images as needed */
+  }
+  
+  .image-info:last-child {
+    margin-right: 0; /* Remove margin from last image */
+  }
+  
+  .image-info b {
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .image-section .btn {
+    background-color: #000000; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add transition effect for smooth color change */
+    margin-left: 5px;
+  }
+  
+  .image-section .btn:hover {
+    background-color: #555352; /* Change button color on hover */
+  }
+  
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    width: 45%; /* Adjust width as needed */
+  }
+  
+  .image {
+    width: 45%; /* Adjust width as needed */
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about h2 {
+    margin-top: -340px;
+    text-align: center;
+    color: #000000;
+  }
+  .about p{
+    margin-top: 200px;
+    text-align: center;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+  }
+  
+  .btn:hover {
+    background-color: #817f7e;
+  }
+  /* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .icon {
+    color: #ca2e2e;
+    font-size: 24px;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  /* Styling for individual social icons */
+  .instagram {
+    color: #e4405f;
+  }
+  
+  .facebook {
+    color: #3b5998;
+  }
+  
+  .twitter {
+    color: #1da1f2;
+  }
+  /* Hide all slides by default */
+.slides {
+  display: none;
+  align-items: center;
+}
+
+/* Fade animation for slides */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slides img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+
+.login-icon {
+  position: absolute; /* Position the icon absolutely */
+  top: 10px; /* Position it at the top */
+  right: 20px; /* Position it at the right */
+}
+
+.login-icon a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+}

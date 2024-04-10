@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Sweet Treats Bakery</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <h1>Sweet Treats Bakery</h1>
+    <nav>
+      <ul>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="login-icon">
+        <a href="login.html"><i class="fas fa-user"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="slideshow-container">
+    <div class="slides fade">
+      <img src="image\cup1.webp" alt="Slide 1">
+    </div>
+    <div class="slides fade">
+      <img src="image\cup2.webp" alt="Slide 2">
+    </div>
+    <div class="slides fade">
+      <img src="image\cup3.webp" alt="Slide 3">
+    </div>
+    <div class="slides fade">
+      <img src="image\cup4.webp" alt="Slide 4">
+    </div>
+    <div class="slides fade">
+      <img src="image\cup5.webp" alt="Slide 5">
+    </div>
+    <div class="slides fade">
+      <img src="image\cup6.webp" alt="Slide 6">
+    </div>
+  </div>
+  
+  <section class="image-section">
+    <div class="text-container">
+      <b>Fresh From the Oven to Your Doorstep</b>
+      <br><br><br>
+      <div class="image-info">
+        <img class="image" src="image\cup3.webp" alt="Image 1">
+        <br>
+        <b>DOUBLE CHOCOLATE</b>
+      </div>
+      <div class="image-info">
+        <img class="image" src="image\cup5.webp" alt="Image 2">
+        <br>
+        <b>SUGAR-FREE CHOCOLATE VANILA</b>
+      </div>
+      <div class="image-info">
+        <img class="image" src="image\cup4.webp" alt="Image 3">
+        <br>
+        <b>GLUTEN-FREE RED VELVET</b>
+    </div>
+   <br><br> <a href="menu.html" class="btn">Menu</a>
+    </div>
+  </section>
+  
+  <div class = "space">
+
+  </div>
+  <section class="about">
+    <div class="content">
+      <div class="text">
+        <h2>About Us</h2>
+        <p>This is your About section. It’s a great space to tell your <br>story and to describe who you are and what you do. If <br>you're a business, talk about how you started and tell the <br>story of your professional journey. People want to know <br>the real you, so don't be afraid to 
+          share personal <br>anecdotes. Explain your core values and how you, your<br> organization, or your business stand out from the crowd.</p>
+        
+        <br><br>  <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="image">
+        <img src="image\9c608a_9efc5333c98a44c994dbb37cade9066f.jpg" alt="About Image">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="social-icons">
+      <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2024 Sweet Treats Bakery. All rights reserved.</p>
+  </footer>
+  <script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+    
+  </script>
+</body>
+</html>

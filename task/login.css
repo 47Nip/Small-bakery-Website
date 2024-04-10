@@ -1,0 +1,76 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing to handle padding and borders correctly */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333; /* Adjust text color */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Adjust text color */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    margin: 0 auto; /* Center the inputs */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px 0; /* Adjust padding */
+    margin: 0 auto; /* Center the button */
+    background-color: #ff9f1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6348;
+  }
+  
+  p {
+    margin-top: 15px;
+    color: #333; /* Adjust text color */
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
